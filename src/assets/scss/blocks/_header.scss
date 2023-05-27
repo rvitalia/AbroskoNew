@@ -20,7 +20,7 @@
     align-items: center;
     cursor: pointer;
 
-    &>img{
+    &>img {
         margin-right: 1.2rem;
         pointer-events: none;
     }
@@ -31,7 +31,10 @@
     }
 }
 
-.header__inner__item__burger {}
+.header__inner__item__burger {
+    width: 30px;
+    height: 23px;
+}
 
 .header__inner__item__title {
     font-family: 'Inter';
@@ -43,6 +46,8 @@
 
 }
 
-.header__inner__item__img {}
 
-.header__inner__item__search {}
+.header__inner__item__search {
+    width: 24px;
+    height: 24px;
+}
