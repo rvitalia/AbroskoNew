@@ -1,6 +1,7 @@
 .hero {
     height: 100vh;
     @include bg-cover;
+    background-attachment: fixed;
 }
 
 .hero__inner {
